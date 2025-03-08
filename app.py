@@ -111,7 +111,7 @@ elif selection == "Projects":
     if st.button("Run App", key="Run App_1"):
         webbrowser.open_new_tab("https://loan-approval-predictor-efec8javuptkd6ywaj3p6k.streamlit.app/")
         st.write(" ")
-    st.write("### 5. Data Science and Machine Learning Portfolio")
+    st.write("### 2. Data Science and Machine Learning Portfolio")
     st.write('''• Developed an interactive portfolio website showcasing ML projects using Streamlit and Flask.
 \n• Integrated dynamic project visualizations, live model demos, and research insights.
 \n• Hosted on Render with seamless deployment from GitHub.
@@ -121,18 +121,18 @@ elif selection == "Projects":
         webbrowser.open_new_tab("https://github.com/parniagrawal/parniagrawal-portfolio.git")
     if st.button("Run App", key="Run App_2"):
         webbrowser.open_new_tab("https://parniagrawal-portfolio-h7ajplxztjsqjf22xpbtdm.streamlit.app/")
-    st.write("### 2. NeuroVision Brain Tumor Classification Model")
+    st.write("### 3. NeuroVision Brain Tumor Classification Model")
     st.write('''• Developed a deep learning model for MRI-based brain tumor classification using CNN architecture.
 \n• Utilized VGG16 for feature extraction, integrated Feature Pyramid Network (FPN) and attention mechanisms to enhance accuracy.
 \n• Achieved high classification performance using image preprocessing (normalization, augmentation).
 \n• Evaluated using accuracy, F1-score, confusion matrix and achieved an accuracy of 96.8%.''')
     st.write(" ")
-    st.write("### 3. Price Prediction Machine Learning Model")
+    st.write("### 4. Price Prediction Machine Learning Model")
     st.write('''•Developed a machine learning model to predict house prices using python and regression algorithms
 \n•Achieved 92% accuracy in predicting prices by analysing historical data and optimizing features.
 \n•Tools & Technologies: Python (Pandas, NumPy, Scikit-learn), Jupyter Notebook, VS Code.''')
     st.write(" ")
-    st.write("### 4. Customer Churn Prediction")
+    st.write("### 5. Customer Churn Prediction")
     st.write('''• Built a churn prediction model using **Random Forest & XGBoost** to analyze customer retention trends.  
 \n• Improved customer retention by **30%** through feature engineering and hyperparameter tuning.  
 \n• **Tools & Technologies:** Python (*Scikit-learn, Matplotlib, Seaborn*), Jupyter Notebook, Streamlit.''')
@@ -181,7 +181,7 @@ elif selection == "Certifications":
     if st.button("View Certification", key="Certification_3"):
         webbrowser.open_new_tab("https://www.netacad.com/certificates?issuanceId=5ba5c36e-ed28-4f9a-afc0-7abc39c81b19")
     st.write('''
-- 🏅 **AWS Academy Machine Learning ** - Amazon Web Services(AWS)''')
+- 🏅 **AWS Academy Machine Learning** - Amazon Web Services(AWS)''')
     if st.button("View Certification", key="Certification_4"):
         webbrowser.open_new_tab("https://www.credly.com/go/1wcQFMC9")
 
