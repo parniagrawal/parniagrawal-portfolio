@@ -108,8 +108,19 @@ elif selection == "Projects":
 \n• Tools & Technologies: Python (Pandas, NumPy, Scikit-learn, XGBoost), Streamlit, GitHub, VS Code.''')
     if st.button("View Loan Approval Prediction"):
         webbrowser.open_new_tab("https://github.com/parniagrawal/loan-approval-predictor.git")
-    if st.button("Run App"):
+    if st.button("Run App", key="Run App_1"):
         webbrowser.open_new_tab("https://loan-approval-predictor-efec8javuptkd6ywaj3p6k.streamlit.app/")
+        st.write(" ")
+    st.write("### 5. Data Science and Machine Learning Portfolio")
+    st.write('''• Developed an interactive portfolio website showcasing ML projects using Streamlit and Flask.
+\n• Integrated dynamic project visualizations, live model demos, and research insights.
+\n• Hosted on Render with seamless deployment from GitHub.
+\n• Designed a responsive UI for a user-friendly experience.
+\n• Tools & Technologies: Python (Streamlit, Flask, Pandas, NumPy, Scikit-learn), Jupyter Notebook, VS Code, GitHub.''')
+    if st.button("View Portfolio"):
+        webbrowser.open_new_tab("https://github.com/parniagrawal/parniagrawal-portfolio.git")
+    if st.button("Run App", key="Run App_2"):
+        webbrowser.open_new_tab("https://parniagrawal-portfolio-h7ajplxztjsqjf22xpbtdm.streamlit.app/")
     st.write("### 2. NeuroVision Brain Tumor Classification Model")
     st.write('''• Developed a deep learning model for MRI-based brain tumor classification using CNN architecture.
 \n• Utilized VGG16 for feature extraction, integrated Feature Pyramid Network (FPN) and attention mechanisms to enhance accuracy.
@@ -125,13 +136,6 @@ elif selection == "Projects":
     st.write('''• Built a churn prediction model using **Random Forest & XGBoost** to analyze customer retention trends.  
 \n• Improved customer retention by **30%** through feature engineering and hyperparameter tuning.  
 \n• **Tools & Technologies:** Python (*Scikit-learn, Matplotlib, Seaborn*), Jupyter Notebook, Streamlit.''')
-    st.write(" ")
-    st.write("### 5. Data Science and Machine Learning Portfolio")
-    st.write('''• Developed an interactive portfolio website showcasing ML projects using Streamlit and Flask.
-\n• Integrated dynamic project visualizations, live model demos, and research insights.
-\n• Hosted on Render with seamless deployment from GitHub.
-\n• Designed a responsive UI for a user-friendly experience.
-\n• Tools & Technologies: Python (Streamlit, Flask, Pandas, NumPy, Scikit-learn), Jupyter Notebook, VS Code, GitHub.''')
 
 # Work Experience
 elif selection == "Work Experience":
