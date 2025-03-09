@@ -166,7 +166,7 @@ elif selection == "Certifications":
     st.header("📜 Certifications")
     st.write('''
 - 🏅 **Python for Data Science and AI** - IBM (Coursera)''')
-    st.linl_button("View Certification", "https://coursera.org/share/32532091f6b1a801b443580adca136b0")
+    st.link_button("View Certification", "https://coursera.org/share/32532091f6b1a801b443580adca136b0")
     st.write('''
 - 🏅 **Oracle Certified Foundations Associate** - Oracle''')
     st.link_button("View Certification", "https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC5625741&trackId=OCI2024FNDCFA&key=d47a67f93e5642a7b69b195c6ba9a734af9c7b95" )
