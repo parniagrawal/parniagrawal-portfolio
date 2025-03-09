@@ -169,7 +169,7 @@ elif selection == "Certifications":
     st.linl_button("View Certification", "https://coursera.org/share/32532091f6b1a801b443580adca136b0")
     st.write('''
 - 🏅 **Oracle Certified Foundations Associate** - Oracle''')
-    st.link_button("View Certification", https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC5625741&trackId=OCI2024FNDCFA&key=d47a67f93e5642a7b69b195c6ba9a734af9c7b95" )
+    st.link_button("View Certification", "https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC5625741&trackId=OCI2024FNDCFA&key=d47a67f93e5642a7b69b195c6ba9a734af9c7b95" )
     st.write('''
 - 🏅 **Networking basics** - Cisco''')
     st.link_button("View Certification", "https://www.netacad.com/certificates?issuanceId=5ba5c36e-ed28-4f9a-afc0-7abc39c81b19")
