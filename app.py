@@ -106,21 +106,17 @@ elif selection == "Projects":
 \n• Achieved 98.5% accuracy using XGBoost, optimizing features and performing hyperparameter tuning.
 \n• Deployed a Streamlit web app for real-time predictions, making it accessible via a web interface.
 \n• Tools & Technologies: Python (Pandas, NumPy, Scikit-learn, XGBoost), Streamlit, GitHub, VS Code.''')
-    if st.button("View Loan Approval Prediction"):
-        webbrowser.open_new_tab("https://github.com/parniagrawal/loan-approval-predictor.git")
-    if st.button("Run App", key="Run App_1"):
-        webbrowser.open_new_tab("https://loan-approval-predictor-efec8javuptkd6ywaj3p6k.streamlit.app/")
-        st.write(" ")
+    st.link_button("View Loan Approval Prediction", "https://github.com/parniagrawal/loan-approval-predictor.git")
+    st.link_button("Run App", "https://loan-approval-predictor-efec8javuptkd6ywaj3p6k.streamlit.app/")
+    st.write(" ")
     st.write("### 2. Data Science and Machine Learning Portfolio")
     st.write('''• Developed an interactive portfolio website showcasing ML projects using Streamlit and Flask.
 \n• Integrated dynamic project visualizations, live model demos, and research insights.
 \n• Hosted on Render with seamless deployment from GitHub.
 \n• Designed a responsive UI for a user-friendly experience.
 \n• Tools & Technologies: Python (Streamlit, Flask, Pandas, NumPy, Scikit-learn), Jupyter Notebook, VS Code, GitHub.''')
-    if st.button("View Portfolio"):
-        webbrowser.open_new_tab("https://github.com/parniagrawal/parniagrawal-portfolio.git")
-    if st.button("Run App", key="Run App_2"):
-        webbrowser.open_new_tab("https://parniagrawal-portfolio-h7ajplxztjsqjf22xpbtdm.streamlit.app/")
+    st.link_button("View Portfolio", "https://github.com/parniagrawal/parniagrawal-portfolio.git")
+    st.link_button("Run App", "https://parniagrawal-portfolio-h7ajplxztjsqjf22xpbtdm.streamlit.app/")
     st.write("### 3. NeuroVision Brain Tumor Classification Model")
     st.write('''• Developed a deep learning model for MRI-based brain tumor classification using CNN architecture.
 \n• Utilized VGG16 for feature extraction, integrated Feature Pyramid Network (FPN) and attention mechanisms to enhance accuracy.
@@ -170,20 +166,16 @@ elif selection == "Certifications":
     st.header("📜 Certifications")
     st.write('''
 - 🏅 **Python for Data Science and AI** - IBM (Coursera)''')
-    if st.button("View Certification", key="Certification_1"):
-        webbrowser.open_new_tab("https://coursera.org/share/32532091f6b1a801b443580adca136b0")
+    st.linl_button("View Certification", "https://coursera.org/share/32532091f6b1a801b443580adca136b0")
     st.write('''
 - 🏅 **Oracle Certified Foundations Associate** - Oracle''')
-    if st.button("View Certification", key="Certification_2"):
-        webbrowser.open_new_tab("https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC5625741&trackId=OCI2024FNDCFA&key=d47a67f93e5642a7b69b195c6ba9a734af9c7b95")
+    st.link_button("View Certification", https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC5625741&trackId=OCI2024FNDCFA&key=d47a67f93e5642a7b69b195c6ba9a734af9c7b95" )
     st.write('''
 - 🏅 **Networking basics** - Cisco''')
-    if st.button("View Certification", key="Certification_3"):
-        webbrowser.open_new_tab("https://www.netacad.com/certificates?issuanceId=5ba5c36e-ed28-4f9a-afc0-7abc39c81b19")
+    st.link_button("View Certification", "https://www.netacad.com/certificates?issuanceId=5ba5c36e-ed28-4f9a-afc0-7abc39c81b19")
     st.write('''
 - 🏅 **AWS Academy Machine Learning** - Amazon Web Services(AWS)''')
-    if st.button("View Certification", key="Certification_4"):
-        webbrowser.open_new_tab("https://www.credly.com/go/1wcQFMC9")
+    st.link_button("View Certification", "https://www.credly.com/go/1wcQFMC9")
 
 
 # Achievements
